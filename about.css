@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    background-image: url('2.jpg');
+    height: 30vh;
+    background-position: center;
+    max-width: 207em ;
+    background-repeat: no-repeat;
+}
+ul{
+ display: inline-flex;
+ flex-wrap: wrap;
+}
+ul li{
+    float: left;
+    list-style-type: none;
+    
+}
+ul li a{
+    text-decoration: none; 
+   color: cornsilk;
+    border: solid 0.5px #E8DDD0;
+   
+    width: 170px;
+    height: 55px;
+    padding: 15px 49px;
+    font-size: 25px;
+    position: relative;
+    top: 4em;
+    left: 11em;
+}
+ul li a:hover{
+    background-color: #E8DDD0;
+    padding:15px 49px;
+    color: black;
+}
+
+#qeyb-gadaal{
+    height: 12em ;
+    background-color: #3B363D;
+    padding: 20px;
+    color: rgb(201, 201, 201);
+    font-size: 25px;
+    display: flex;
+    
+
+    
+
+}
+.g2 ol,.g2 a{
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(201, 201, 201);
+}
+.g2 {
+    margin-left: 8em;
+        
+    }
+.g2 a:hover{
+    color: rgb(255, 255, 255);
+} 
+.g2 h2{
+    margin-bottom: 0.9em;
+}
+
+.g1{
+    margin-left: 1em;
+}
+.g1 h2{
+    padding-left: 50px;
+    margin-bottom: 0.9em;
+
+}
+.g1 p{
+    padding-left: 50px;
+    height: fit-content;
+    width: 15em;
+    font-size: 20px;
+}
+
+
+.g3{
+    padding-left:8em;
+    /* padding-top: 2em; */
+}
+.g3 input[type='email']{
+    color: #999999;
+    width: 5em;
+    height: 10em;
+    font-size: .5em;
+    /* padding: .1em; */
+    margin: 0  1em 0;
+    border: solid 2px #999999;
+    background: none;
+}
+/* .g3 input[type='submit']{
+    color: #212121;
+    font-size: 1em;
+    padding: .3em 1.3em;
+    border: solid 1px #212121;
+    text-align: center;
+    margin: 0.5em 0 0 0;
+    background:  #b3bf06;
+    
+}
+.g3 input[type='submit']:hover{
+    background: transparent;
+    color: #FFFFFF;
+	border: solid 1px #b3bf06;
+} */
+.footer{
+
+        color: wheat;
+        height: 3em;
+        text-align: center;
+        padding-top: 15px;
+        background-color: #212121;
+   }
