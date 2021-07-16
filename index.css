@@ -15,9 +15,6 @@ body{
     display: flexbox;
     flex-wrap: wrap;
 }
-.icon{
-    border-radius: 50%;
-}
 .banner1{
     height: fit-content;
     display: inline;
@@ -62,11 +59,6 @@ ul li a:active{
     color: black;
 }
 
-.login-btn{
-    position: absolute;
-    right: 5px;
-    top: 1ex;
-}
 
 .i2{
     
@@ -203,7 +195,6 @@ picture img{
 
 }
 .qeybta-dhexe2 p{
-    border: 1px solid black;
     height: 10em;
     width: 13em;
     margin: 6em 0 0 0;

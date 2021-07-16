@@ -61,18 +61,10 @@ ul li a:active{
     font-family: 'Playball', sans-serif;
   
   }
-  .qeyb1{
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      margin: 0 auto;
-    }
-  .qeyb1 img{
-      width: 50em;
-      height: 30em; 
-      margin: 0 0 0 em;
-      float: inline-start;
-
+  .qeyb1 {
+      max-width: 1000%;
+      max-height: 100%;
+      background-image: linear-gradient(to top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
   }
 #qeyb-gadaal{
     height: 12em ;
